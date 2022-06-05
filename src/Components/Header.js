@@ -6,11 +6,17 @@ function Header() {
     <>
       <header id="header" className="fixed-top d-flex align-items-center">
         <div className="container d-flex align-items-center">
-          <h1 className="logo me-auto">
+          {/* <h1 className="logo me-auto">
             <Link to="/">Sailor</Link>
-          </h1>
+          </h1> */}
 
-          {/*<!-- <a to="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"></a>-->*/}
+          <Link to="/" className="logo me-auto">
+            <img
+              src="assets/images/k12-logo.png"
+              alt=""
+              className="img-fluid"
+            />
+          </Link>
 
           <nav id="navbar" className="navbar">
             <ul>

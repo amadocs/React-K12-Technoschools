@@ -7,6 +7,7 @@ import Portfolio from './Components/Portfolio';
 import PortfolioDetails from './Components/PortfolioDetails';
 import { Helmet } from 'react-helmet';
 import Footer from './Components/Footer';
+import PrivacyPolicy from './Components/PrivacyPolicy';
 function App() {
   return (
     <>
@@ -26,14 +27,17 @@ function App() {
             path="/portfolio"
             element={<Portfolio breadcrumb="Portfolio" />}
           />
-
           <Route
             exact
             path="/portfolio-details"
             element={<PortfolioDetails />}
           />
+          <Route
+            exact
+            path="/privacy-policy"
+            element={<PrivacyPolicy breadcrumb="Privacy Policy" />}
+          />
         </Routes>
-
         <Footer />
       </Router>
       <Helmet>

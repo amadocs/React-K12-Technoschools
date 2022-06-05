@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
+  const heroTextStyle = {
+    color: '#d9232d',
+    fontWeight: '700',
+  };
   return (
     <>
       <section id="hero">
@@ -28,38 +32,33 @@ export default function Home() {
                     Welcome to <span>K12 Techno Services</span>
                   </h2>
                   <p className="animate__animated animate__fadeInUp">
-                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                    dolorem mollitia ut. Similique ea voluptatem. Esse
-                    doloremque accusamus repellendus deleniti vel. Minus et
-                    tempore modi architecto.
+                    <h3>
+                      Partner With Us For Creating A{' '}
+                      <span style={heroTextStyle}>World Class School</span>
+                    </h3>
                   </p>
                   <Link
-                    to="#about"
+                    to="#"
                     className="btn-get-started animate__animated animate__fadeInUp scrollto"
                   >
-                    Read More
+                    ENQUIRE NOW
                   </Link>
                 </div>
               </div>
             </div>
 
             {/* <!-- Slide 2 --> */}
-            <div
+            {/*<div
               className="carousel-item"
               style={{ backgroundImage: 'url(assets/img/slide/slide-2.jpg)' }}
             >
-              <div className="carousel-container">
+               <div className="carousel-container">
                 <div className="container">
                   <h2 className="animate__animated animate__fadeInDown">
                     Lorem Ipsum Dolor
                   </h2>
                   <p className="animate__animated animate__fadeInUp">
-                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                    dolorem mollitia ut. Similique ea voluptatem. Esse
-                    doloremque accusamus repellendus deleniti vel. Minus et
-                    tempore modi architecto.
+                    Dummy Text
                   </p>
                   <Link
                     to="#about"
@@ -69,10 +68,10 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <!-- Slide 3 --> */}
-            <div
+            {/* <div
               className="carousel-item"
               style={{ backgroundImage: 'url(assets/img/slide/slide-3.jpg)' }}
             >
@@ -96,7 +95,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <Link
@@ -169,71 +168,19 @@ export default function Home() {
         </section>
         {/* <!-- End About Section --> */}
 
-        {/* <!-- ======= Clients Section ======= --> */}
-        <section id="clients" className="clients section-bg">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img
-                  src="assets/img/clients/client-1.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img
-                  src="assets/img/clients/client-2.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img
-                  src="assets/img/clients/client-3.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img
-                  src="assets/img/clients/client-4.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img
-                  src="assets/img/clients/client-5.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img
-                  src="assets/img/clients/client-6.png"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <!-- End Clients Section --> */}
-
         {/* <!-- ======= Services Section ======= --> */}
         <section id="services" className="services">
           <div className="container">
             <div className="row">
+              <div className="section-title">
+                <h2>Our Expertise</h2>
+                <p>End to End School Management</p>
+              </div>
               <div className="col-md-6">
                 <div className="icon-box">
                   <i className="bi bi-briefcase"></i>
                   <h4>
-                    <Link to="#">Lorem Ipsum</Link>
+                    <Link to="#">Infrastructure Setup</Link>
                   </h4>
                   <p>
                     Voluptatum deleniti atque corrupti quos dolores et quas
@@ -245,7 +192,7 @@ export default function Home() {
                 <div className="icon-box">
                   <i className="bi bi-card-checklist"></i>
                   <h4>
-                    <Link to="#">Dolor Sitema</Link>
+                    <Link to="#">Marketing/Sales</Link>
                   </h4>
                   <p>
                     Minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -257,7 +204,7 @@ export default function Home() {
                 <div className="icon-box">
                   <i className="bi bi-bar-chart"></i>
                   <h4>
-                    <Link to="#">Sed ut perspiciatis</Link>
+                    <Link to="#">Curriculum Implementation</Link>
                   </h4>
                   <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit
@@ -269,7 +216,7 @@ export default function Home() {
                 <div className="icon-box">
                   <i className="bi bi-binoculars"></i>
                   <h4>
-                    <Link to="#">Nemo Enim</Link>
+                    <Link to="#">Administrative Support</Link>
                   </h4>
                   <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in
@@ -281,7 +228,7 @@ export default function Home() {
                 <div className="icon-box">
                   <i className="bi bi-brightness-high"></i>
                   <h4>
-                    <Link to="#">Magni Dolore</Link>
+                    <Link to="#">Technology Integration</Link>
                   </h4>
                   <p>
                     At vero eos et accusamus et iusto odio dignissimos ducimus
@@ -293,7 +240,7 @@ export default function Home() {
                 <div className="icon-box">
                   <i className="bi bi-calendar4-week"></i>
                   <h4>
-                    <Link to="#">Eiusmod Tempor</Link>
+                    <Link to="#">Affiliation and Permission Support</Link>
                   </h4>
                   <p>
                     Et harum quidem rerum facilis est et expedita distinctio.
