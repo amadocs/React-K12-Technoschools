@@ -34,8 +34,10 @@ function Header() {
                   Home
                 </Link>
               </li>
-
-              <li className="dropdown">
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              {/* {/* <li className="dropdown">
                 <Link to="#">
                   <span>About</span> <i className="bi bi-chevron-down"></i>
                 </Link>
@@ -73,8 +75,8 @@ function Header() {
                       </li>
                     </ul>
                   </li>
-                </ul>
-              </li>
+                </ul> 
+              </li> */}
               <li>
                 <Link to="/services">Services</Link>
               </li>
