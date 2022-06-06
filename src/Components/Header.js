@@ -2,6 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
+  // handleClick = () => {
+  //   this.setState({ clicked: !this.state.clicked });
+  // };
+  // function handleClick(e) {
+  //   e.preventDefault();
+  //   console.log('The link was clicked.');
+  //   this.setState({ clicked: !this.state.clicked });
+  // }
+
   return (
     <>
       <header id="header" className="fixed-top d-flex align-items-center">

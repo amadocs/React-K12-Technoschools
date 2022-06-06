@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Verticals from './Verticals';
 
 export default function About(props) {
   return (
@@ -21,42 +22,34 @@ export default function About(props) {
       {/* <!-- End Breadcrumbs --> */}
 
       {/* <!-- ======= About Section ======= --> */}
-      <section id="about" className="about">
+      <section id="about" className="about ps-timeline-sec">
         <div className="container">
           <div className="row content">
             <div className="col-lg-6">
-              <h2>Eum ipsam laborum deleniti velitena</h2>
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assum perenda sruen jonee trave
-              </h3>
+              <h2>K12 Techno Services Pvt. Ltd.</h2>
+              <p>
+                <center>
+                  <Link
+                    to="https://k12technoservices.com/"
+                    className="btn-more-about-us animate__animated animate__fadeInUp scrollto"
+                    target="_blank"
+                  >
+                    KNOW MORE ABOUT K12
+                  </Link>
+                </center>
+              </p>
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0">
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
-              </p>
-              <ul>
-                <li>
-                  <i className="ri-check-double-line"></i> Ullamco laboris nisi
-                  ut aliquip ex ea commodo consequa
-                </li>
-                <li>
-                  <i className="ri-check-double-line"></i> Duis aute irure dolor
-                  in reprehenderit in voluptate velit
-                </li>
-                <li>
-                  <i className="ri-check-double-line"></i> Ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in
-                </li>
-              </ul>
-              <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                K12 Techno Services Pvt. Ltd. is a leading education service
+                provider in India, offering a dynamic suite of academic support,
+                services and solutions to schools. The education sector has
+                extensively evolved in the last decade. Hence, the academic
+                needs of students and parents have also grown consequently. The
+                upgraded teaching methodologies, blended with effective use of
+                technology has been the main idea behind K12 i.e. to pave the
+                way for a global approach towards education. K12 with its band
+                of services, facilitate schools to leverage on its strength.
               </p>
             </div>
           </div>
@@ -64,252 +57,53 @@ export default function About(props) {
       </section>
       {/* <!-- End About Section --> */}
 
-      {/* <!-- ======= Team Section ======= --> */}
-      <section id="team" className="team section-bg">
+      {/* <!-- ======= Investors Section ======= --> */}
+      <section id="clients" className="clients section-bg">
         <div className="container">
           <div className="section-title">
-            <h2>Team</h2>
-            <p>Our Hardowrking Team</p>
+            <h2>&nbsp;</h2>
+            <p>Our Proud Investors</p>
           </div>
-
           <div className="row">
-            <div className="col-lg-6">
-              <div className="member d-flex align-items-start">
-                <div className="pic">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div className="member-info">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <p>Explicabo voluptatem mollitia et repellat</p>
-                  <div className="social">
-                    <Link to="">
-                      <i className="ri-twitter-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-facebook-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-instagram-fill"></i>
-                    </Link>
-                    <Link to="">
-                      {' '}
-                      <i className="ri-linkedin-box-fill"></i>{' '}
-                    </Link>
-                  </div>
-                </div>
-              </div>
+            <div className="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img
+                src="assets/images/investors/sequoia-logo.png"
+                className="img-fluid"
+                alt="sequoia"
+              />
             </div>
 
-            <div className="col-lg-6 mt-4 mt-lg-0">
-              <div className="member d-flex align-items-start">
-                <div className="pic">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div className="member-info">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <p>Aut maiores voluptates amet et quis</p>
-                  <div className="social">
-                    <Link to="">
-                      <i className="ri-twitter-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-facebook-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-instagram-fill"></i>
-                    </Link>
-                    <Link to="">
-                      {' '}
-                      <i className="ri-linkedin-box-fill"></i>{' '}
-                    </Link>
-                  </div>
-                </div>
-              </div>
+            <div className="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img
+                src="assets/images/investors/navneet-logo.png"
+                className="img-fluid"
+                alt="navneet"
+              />
             </div>
 
-            <div className="col-lg-6 mt-4">
-              <div className="member d-flex align-items-start">
-                <div className="pic">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div className="member-info">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <p>Quisquam facilis cum velit laborum corrupti</p>
-                  <div className="social">
-                    <Link to="">
-                      <i className="ri-twitter-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-facebook-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-instagram-fill"></i>
-                    </Link>
-                    <Link to="">
-                      {' '}
-                      <i className="ri-linkedin-box-fill"></i>{' '}
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 mt-4">
-              <div className="member d-flex align-items-start">
-                <div className="pic">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div className="member-info">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <p>Dolorum tempora officiis odit laborum officiis</p>
-                  <div className="social">
-                    <Link to="">
-                      <i className="ri-twitter-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-facebook-fill"></i>
-                    </Link>
-                    <Link to="">
-                      <i className="ri-instagram-fill"></i>
-                    </Link>
-                    <Link to="">
-                      {' '}
-                      <i className="ri-linkedin-box-fill"></i>{' '}
-                    </Link>
-                  </div>
-                </div>
-              </div>
+            <div className="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img
+                src="assets/images/investors/sofina-logo.png"
+                className="img-fluid"
+                alt="sofina"
+              />
             </div>
           </div>
         </div>
       </section>
-      {/* <!-- End Team Section --> */}
+      {/* <!-- End Investors Section --> */}
 
-      {/* <!-- ======= Our Skills Section ======= --> */}
+      {/* <!-- ======= Our Verticals Section ======= --> */}
       <section id="skills" className="skills">
         <div className="container">
           <div className="section-title">
-            <h2>Our Skills</h2>
-            <p>Check our Our Skills</p>
-          </div>
-
-          <div className="row skills-content">
-            <div className="col-lg-6">
-              <div className="progress">
-                <span className="skill">
-                  HTML <i className="val">100%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="100"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  CSS <i className="val">90%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  JavaScript <i className="val">75%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="progress">
-                <span className="skill">
-                  PHP <i className="val">80%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  WordPress/CMS <i className="val">90%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  Photoshop <i className="val">55%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
+            <h2>Verticals</h2>
+            <p>Check Our Verticals</p>
+            <Verticals />
           </div>
         </div>
       </section>
+      {/* <!-- ======= Ends Our Verticals Section ======= --> */}
     </main>
   );
 }
