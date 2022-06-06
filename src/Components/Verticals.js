@@ -14,24 +14,24 @@ export default function Verticals() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
+          //   date="2011 - present"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<></>}
         >
           <center>
-            <img
-              src="assets/images/verticals/logo-1.png"
-              alt="Orchids"
-              className="logo-img"
-            />
-            <h3 className="vertical-timeline-element-title">
-              <Link
-                to="https://www.orchidsinternationalschool.com/"
-                target="_blank"
-              >
+            <Link
+              to="https://www.orchidsinternationalschool.com/"
+              target="_blank"
+            >
+              <img
+                src="assets/images/verticals/logo-1.png"
+                alt="Orchids"
+                className="logo-img"
+              />
+              <h3 className="vertical-timeline-element-title">
                 Orchids The International School
-              </Link>
-            </h3>
+              </h3>
+            </Link>
           </center>
         </VerticalTimelineElement>
 

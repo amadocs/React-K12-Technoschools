@@ -37,47 +37,33 @@ function Header() {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              {/* {/* <li className="dropdown">
+              <li className="dropdown">
                 <Link to="#">
-                  <span>About</span> <i className="bi bi-chevron-down"></i>
+                  <span>Services</span> <i className="bi bi-chevron-down"></i>
                 </Link>
                 <ul>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/infrastructure">Infrastructure Setup</Link>
                   </li>
                   <li>
-                    <Link to="/team">Team</Link>
+                    <Link to="/margeting-sales">Marketing/Sales</Link>
                   </li>
                   <li>
-                    <Link to="/testimonials">Testimonials</Link>
-                  </li>
-
-                  <li className="dropdown">
-                    <Link to="#">
-                      <span>Deep Drop Down</span>{' '}
-                      <i className="bi bi-chevron-right"></i>
+                    <Link to="/administrative-support">
+                      Administrative Support
                     </Link>
-                    <ul>
-                      <li>
-                        <Link to="#">Deep Drop Down 1</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Deep Drop Down 2</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Deep Drop Down 3</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Deep Drop Down 4</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Deep Drop Down 5</Link>
-                      </li>
-                    </ul>
                   </li>
-                </ul> 
-              </li> */}
-              <li>
+                  <li>
+                    <Link to="/technology-setup">Technology Setup</Link>
+                  </li>
+                  <li>
+                    <Link to="/affiliation-and-permission-support">
+                      Affiliation and Permission Support
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              {/* <li>
                 <Link to="/services">Services</Link>
               </li>
               <li>
@@ -88,7 +74,7 @@ function Header() {
               </li>
               <li>
                 <Link to="/blog">Blog</Link>
-              </li>
+              </li> */}
 
               <li>
                 <Link to="/contact">Contact</Link>
